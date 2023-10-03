@@ -1,0 +1,29 @@
+<!-- <mat-dialog-content> -->
+    <div class="container">
+        <div class="main_heading">
+            <form  (ngSubmit)="Update()">
+                <h2  class="text-center">Updated Form</h2>
+                <div class="mb-3">
+                    <label for="exampleInputUserName" class="form-label">UserName</label>
+                    <input type="email" class="form-control" id="exampleInputUserName" aria-describedby="emailHelp" [(ngModel)]="ngForm.username" name="username" >
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="exampleInputName" [(ngModel)]="ngForm.name" name="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="ngForm.email" name="email">
+                </div>
+                <mat-dialog-actions>
+                    <button mat-button mat-dialog-close color="primary" type="submit">Update</button>&nbsp;&nbsp;
+                    <button mat-button [mat-dialog-close]="true" cdkFocusInitial color="accent">Cancel</button>
+                </mat-dialog-actions> 
+            </form>
+        </div>
+    </div>
+<!-- </mat-dialog-content> -->
+<!-- <mat-dialog-actions align="end">
+  <button class="" mat-button mat-dialog-close>Update</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Cancel</button>
+</mat-dialog-actions> -->

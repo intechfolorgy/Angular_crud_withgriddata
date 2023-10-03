@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    margin: auto;
+}
+.main_heading{
+    width: 70%;
+    margin: auto;
+    border: 1px solid  #000;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(255, 237, 237);
+}
+
+.Login_btn {
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #000 !important;
+    background: #000fff;
+}
+.Login_btn ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.Login_btn li a {
+    text-decoration: none;
+
+}
+
+.Login_btn:hover {
+   color: #fff !important;
+   background: #b395f7;
+}

@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+.main_heading{
+    width: 100%;
+    margin: auto;
+    border: 1px solid  #000;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(255, 237, 237);
+}
+
+::ng-deep.cdk-overlay-pane{
+    width: 50%;
+}
+button{
+    border:  1px solid #000;
+    border-radius: 10px;
+}
+button:hover{
+    background: #7a7474;
+    
+}

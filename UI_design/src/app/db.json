@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "name": "Raja",
+      "username": "Raja456",
+      "password": "12345",
+      "email": "raja@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Rajesh kumar",
+      "username": "Rajesh46",
+      "password": "12345",
+      "email": "rajesh@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ram kumar",
+      "username": "ram46",
+      "password": "123456",
+      "email": "ram@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Raju",
+      "username": "Raju9582",
+      "password": "45653",
+      "email": "raju@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "rajukumar",
+      "username": "rajuk582",
+      "password": "12547",
+      "email": "raju1@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Rajkumar",
+      "username": "rajk82325",
+      "password": "6578867698",
+      "email": "raj1@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "xc ",
+      "username": "xc v",
+      "password": "cx ",
+      "email": "xc",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
